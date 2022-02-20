@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OutFit ;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    
+}
+.container{
+    height: 550px;
+    width:350px;
+    margin: 100px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    
+}
+.container>.qr{
+    height: 350px;
+    width: auto;
+    margin: 5px;
+    padding: 15px;
+}
+.qr>.image{
+    border-radius: 10px;
+}
+.txt > h4{
+    font-family: OutFit;
+    font-size:25px;
+    font-weight: 800;
+    margin : 25px 5px 5px 5px;
+    padding-top: 15px;
+
+}
+.txt > p{
+    font-size: 15px;
+    color:hsl(212, 45%, 89%);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.container > * {
+    text-align: center;
+}
